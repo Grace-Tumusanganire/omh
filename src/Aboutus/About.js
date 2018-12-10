@@ -4,9 +4,9 @@ import Navbar from "../navbar/Navbar";
 export default class About extends Component {
   render() {
     return (
-      <div>
+      <div className="about-page">
         <Navbar />
-        <h1>About Pregnancy care </h1>
+        <h1>About Pregnancy care</h1>
         <p>
           We are a six group Rwandans girls passionate about making women's
           lives better
