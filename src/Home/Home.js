@@ -62,13 +62,12 @@ class Home extends Component {
                 Sickness) Missed Period
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                What follows is a description of some of the most common early
+                symptoms of pregnancy. You should know that these symptoms may
+                be caused by other things besides being pregnant. So the fact
+                that you notice some of these symptoms does not necessarily mean
+                you are pregnant. The only way to tell for sure is with a
+                pregnancy test.
               </p>
             </div>
           </div>
