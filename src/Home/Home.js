@@ -56,10 +56,10 @@ class Home extends Component {
             </div>
             <div className="col-sm">
               <p>
-                a number of pregnancy symptoms are seen after a women conceive
-                though they differ accordingly some of them are common and below
-                are some: Spotting Cramping Breast Changes Nausea (Morning
-                Sickness) Missed Period
+                A number of pregnancy symptoms are seen after a women conceive
+                though they differ accordingly. Some of them are common and
+                below are some: Spotting Cramping Breast Changes Nausea (Morning
+                Sickness),Missed Period.
               </p>
               <p>
                 What follows is a description of some of the most common early
@@ -72,14 +72,32 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        {/* <footer className="bg-dark text-white mt-5 p-4 text-center">
-          Copyright &copy; {new Date().getFullYear()} TremendousLadies
-        </footer> */}
-        <footer className="navbar  bg-dark footer fixed-bottom">
+        {/* <footer className="navbar  bg-dark footer fixed-bottom">
           <p className="text-center">
             Copyright &copy;{new Date().getFullYear()} TremendousLadies{" "}
-          </p>
-        </footer>
+          </p> */}
+        {/* <div className="row">
+            <div className="col-sm">
+              <h3>Help Center</h3>
+              <ul>
+                <li>FAQs</li>
+                <li>Services</li>
+              </ul>
+              <h3>Customer Information</h3>
+              <ul>
+                <li>About Us</li>
+                <li>FAQs</li>
+                <li>Contact Us</li>
+              </ul>
+              <h3>Security$Privacy</h3>
+              <ul>
+                <li>Terms Of Use</li>
+                <li>Privacy Policy</li>
+                <li>Location</li>
+              </ul>
+            </div>
+          </div> */}
+        {/* </div></footer> */}
       </div>
     );
   }
