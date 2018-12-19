@@ -1,12 +1,48 @@
 import React, { Component } from "react";
 import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
+
 class Home extends Component {
   render() {
     return (
       <div>
         <Navbar />
         <div className="conter">
+          <div className="row">
+            <div className="col-md-6">
+              <br />
+              <br />
+              <br />
+              <img
+                className="img-fluid img-home"
+                src="https://guardian.ng/wp-content/uploads/2016/07/pregnant_african_woman-istock_000012169363small.jpg"
+                alt=""
+              />
+            </div>
+            <div className="col-md-6">
+              <br />
+              <br />
+              <h2 className="float-left">Pregnancy care</h2>
+              <div className="clearfix" />
+              <h4 className="m-2">
+                Are you wondering if you might be pregnant? would you like to
+                make sure you are really pregnant? Are you getting some symptoms
+                and you want to end the doubts??
+              </h4>
+              <br />
+              <br />
+              <Link to="/About" className="btn btn-outline-warning btn-lg">
+                <span> Learn more </span>
+                <i className="fa fa-arrow-circle-right" />
+              </Link>
+            </div>
+          </div>
+
+          <br />
+          <br />
+          <br />
+          <br />
+
           <div className="row img-col-container">
             <div className="col-sm">
               <div className="img-container">
@@ -69,6 +105,12 @@ class Home extends Component {
                 you are pregnant. The only way to tell for sure is with a
                 pregnancy test.
               </p>
+              <Link
+                className="btn btn-warning btn-lg float-right"
+                to="/general"
+              >
+                Pregnancy week by week
+              </Link>
             </div>
           </div>
         </div>
@@ -102,4 +144,5 @@ class Home extends Component {
     );
   }
 }
+
 export default Home;

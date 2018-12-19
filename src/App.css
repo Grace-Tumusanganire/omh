@@ -1,21 +1,16 @@
-/* body { */
-/* background: darkcyan; */
-/*background-image: url();
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;*/
-/* } */
-
 body {
-  color: #787878 !important;
-  background-color: #ffeeee;
-  padding-top: 50px;
+  color: #000 !important;
+  background-color: #fffcda;
+  font-family: "Source Sans Pro", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding-top: 75px;
 }
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5%;
+.logo-brand {
+  max-height: 40px;
+}
+.img-home {
+  width: 100%;
 }
 
 .App .login-form {
@@ -54,12 +49,22 @@ body {
   background-color: #ffc0cb;
   color: black;
 }
+.content {
+  padding-bottom: 70px;
+}
+.footer {
+  color: #ffc107 !important;
+}
+.footer a {
+  color: #ffc107;
+}
 
 .pink:hover {
   background-color: #ffb0bb;
   color: black;
 }
 .footer {
+  margin-top: 50px;
   color: wheat;
 }
 .text-center {
@@ -71,4 +76,20 @@ body {
 .img-container {
   height: 200px !important;
   overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 100 !important;
+}
+.footer {
+  width: 100%;
+  padding-left: 20px;
+}
+a,
+.btn-link {
+  color: #e0a800;
 }

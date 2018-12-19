@@ -40,8 +40,8 @@ class Register extends Component {
         <Navbar />
         <div className="container">
           <div className="row">
-            <div className="col-md-8 m-auto">
-              <h1 className="display-4 text-center">Sign Up</h1>
+            <div className="col-md-8 m-auto my-container">
+              <h1 className=" text-center">Sign Up</h1>
               <p className="lead text-center">
                 Create your Pregnancy Care account
               </p>
@@ -89,7 +89,7 @@ class Register extends Component {
                 </div>
                 <input
                   type="submit"
-                  className="btn btn-info btn-block mt-4 btn-lg"
+                  className="btn btn-outline-warning btn-block mt-4 btn-lg"
                   value="Register"
                 />
               </form>

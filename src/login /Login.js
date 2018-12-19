@@ -33,7 +33,7 @@ export default class Login extends Component {
                 <input
                   type="submit"
                   value="Login"
-                  class="btn btn-info btn-block mt-4 btn-lg"
+                  className="btn btn-outline-warning btn-block mt-4 btn-lg"
                 />
               </form>
               <br />

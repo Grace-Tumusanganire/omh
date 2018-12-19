@@ -31,6 +31,11 @@ export default class About extends Component {
         <p>
           To empower family planning, secure women pregnancy cycle, and to save
           the future generation.
+          <p>
+            {" "}
+            Help young girls with unplanned pregnancy get used to the next nine
+            months for the safety of their delivery period
+          </p>
         </p>
         <h2>Vision</h2>
         <p>guiding women's reproductive health to have a safe generation </p>
